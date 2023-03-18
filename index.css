@@ -25,3 +25,14 @@ ol{
     display: flex;
     flex-direction: row-reverse;
 }
+.container > .image {
+    flex: 1 0 0%;
+}
+.image > img{
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+}
+.container > .text {
+    flex: 2 0 0%;
+}
