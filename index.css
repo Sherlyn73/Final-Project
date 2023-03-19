@@ -1,7 +1,38 @@
 body{
-    background-color: rgb(188, 108, 79);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3rem;
+    background-color: rgb(135, 231, 236);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
-    padding: 1rem;
-    color: black; 
+    padding: 0rem;
+    color: rgb(117, 1, 1); 
+}
+h1, h2, h3{
+    color: rgb(117, 1, 1);
+}
+p{
+    color: rgb(117, 1, 1);
+}
+button{
+    color: rgb(117, 1, 1);
+}
+footer{
+    color: rgb(117, 1, 1);
+}
+ol{
+    color: rgb(117, 1, 1);
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container > .image {
+    flex: 1 0 0%;
+}
+.image > img{
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+}
+.container > .text {
+    flex: 2 0 0%;
 }
